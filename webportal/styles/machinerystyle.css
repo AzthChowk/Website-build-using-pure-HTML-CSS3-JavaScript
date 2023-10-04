@@ -1,0 +1,94 @@
+body {
+  /* background-image: url("../img/heidelbergbg_img1920x1080.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh; */
+  background-color: var(--black);
+}
+.machinery-top-header {
+  width: 100%;
+  height: 175px;
+  /* background-color: rgb(71, 71, 71); */
+  background-image: url("../img/heidelberg1_bg_image.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-blend-mode: multiply;
+}
+
+.machinery-top-header .service-navbar-cts {
+  text-align: center;
+}
+
+/* Machinery descripton */
+.machinery-des {
+  position: relative;
+  padding: 25px 0 40px 0;
+  color: var(--lightgrey);
+}
+.machinery-des-cts {
+  padding: 10px;
+}
+#machinery-des-hd {
+  font-weight: 400;
+  font-size: 26px;
+  text-align: center;
+  color: var(--orange);
+  margin: 2.5% 5%;
+  padding-bottom: 20px;
+}
+.machinery-des-cts img {
+  width: 85%;
+  border-radius: 10px;
+  border: 1px solid var(--lightgrey);
+  float: right;
+}
+
+.machinery-des-cts-inner-lft {
+  /* border: 1px solid var(--grey);
+  border-radius: 25px; */
+}
+.machinery-des-cts-inner-rgt {
+}
+.machinery-des-cts-inner-rgt table {
+  text-align: left;
+  font-weight: 200;
+}
+.machinery-des-cts-inner-rgt table th {
+  text-align: left;
+  font-weight: 400;
+  font-size: 20px;
+}
+.machinery-des-cts-inner-rgt table tr {
+  padding: 10px;
+}
+.machinery-des-cts-inner-rgt table th,
+td {
+  padding: 0 25px 0 0;
+  color: var(--grey);
+}
+.machinery-des-cts-inner-rgt h1 {
+  padding-bottom: 10px;
+  text-transform: uppercase;
+  color: var(--white);
+  font-weight: 400;
+}
+.machinery-des-cts-inner-rgt h2 {
+  padding: 10px 0;
+  font-weight: 400;
+}
+.machinery-des-cts-inner-rgt p {
+  padding: 10px 0;
+  font-weight: 200;
+}
+
+/* controller-slider-machine */
+.prev,
+.next {
+  position: absolute;
+  top: 50%;
+}
+.machinery-des-cts-inner {
+  color: var(--lightgrey);
+}

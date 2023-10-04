@@ -1,0 +1,163 @@
+.top-bg {
+  background-image: url("../img/high-angle-vibrant-bent-papers.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.top-bg-cts {
+  padding: 40px 2.5%;
+}
+.top-bg-cts h1 {
+  font-weight: 900;
+  font-size: 36px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: transparent;
+  -webkit-text-stroke: 2px var(--orange);
+  /* text-shadow: 4px 0px 35px var(--orange); */
+}
+.top-bg-cts h3 {
+  font-weight: 400;
+  font-size: 36px;
+  color: var(--black);
+}
+.top-bg-cts img {
+  height: 50px;
+  vertical-align: middle;
+}
+
+/* ServiceNAVBAR */
+.service-navbar {
+  background-color: var(--officialred);
+}
+.service-navbar-cts {
+  padding: 15px 2.5%;
+  align-content: center;
+}
+.service-navbar-cts a {
+  color: var(--white);
+  text-align: center;
+  padding: 0 30px 0 0;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 100;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+.service-navbar-cts a:hover {
+  font-weight: 300;
+  font-size: 18px;
+  transition: 1s;
+}
+.content {
+  padding: 20px 0;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 102px;
+}
+
+/* service */
+.col-1-4 {
+  display: grid;
+  grid-template-columns: 275px 1fr;
+  column-gap: 20px;
+}
+.service {
+  padding: 20px 2.5%;
+}
+.service-lft {
+  /* background-color: var(--grey); */
+  padding: 10px;
+  height: fit-content;
+}
+.service-lft h3 {
+  /* background-color: var(--grey); */
+  font-weight: 400;
+  font-size: 24px;
+  color: var(--black);
+}
+.service-lft a {
+  display: table;
+  text-decoration: none;
+  padding: 10px 1px;
+  color: var(--grey);
+  font-weight: 200;
+}
+.service-lft a::before {
+  content: "+";
+  padding: 0 5px 0 0;
+}
+.service-lft a:hover {
+  font-weight: 400;
+}
+
+.service-rgt {
+  padding: 10px;
+}
+.service-rgt P {
+  font-weight: 300;
+  padding-bottom: 10px;
+}
+.service-rgt-cts {
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.service-rgt-cts-hd {
+  text-align: left;
+  padding: 0 0 20px 0;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.service-rgt-cts-inner {
+  padding-bottom: 20px;
+  display: inline-block;
+  overflow: hidden;
+
+  border-radius: 10px;
+}
+.service-rgt-cts-inner h3 {
+  font-weight: 400;
+}
+.service-rgt-cts-inner p {
+  font-weight: 300;
+  font-size: 14px;
+}
+.service-rgt-cts-inner img {
+  width: 100%;
+  display: block;
+  border-radius: 10px;
+}
+.service-rgt-cts-inner img:hover {
+  transform: scale(1.025);
+  transform-origin: 50% 50%;
+  transition: 1s;
+}
+
+/* BacktotopNavigation */
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  font-size: 18px;
+  border-radius: 50%;
+  background-color: var(--orange);
+  color: white;
+  padding: 20px;
+  opacity: 0.8;
+}
+
+#myBtn:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  transition: 0.2s;
+}
